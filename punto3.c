@@ -21,11 +21,10 @@ struct Cliente {
 } typedef Cliente;
 
 
-
 void cargarClientes(Cliente *clientes, int cantClientes);
 void cargarCliente(Cliente *cliente, int idCliente);
 void cargarProductos(Producto *pProductos, int cantProductos);
-void mostrarClientes(Cliente *arregloClientes, int cantClientes);
+void mostrarClientes(Cliente *clientes, int cantClientes);
 void mostrarCliente(Cliente *cliente, int idCliente);
 float precioFinal(Producto *pProductos, int idProductos);
 float costoTotal(Producto producto);
